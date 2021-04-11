@@ -1,0 +1,6 @@
+server:
+  port: 6001
+  
+spring:  application:    name: HYSTRIX-DASHBOARD
+    
+hystrix:  dashboard:    proxy-stream-allow-list: "*"
